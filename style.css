@@ -1,4 +1,4 @@
-:root ( */
+:root { */
 
 --branco-principal: #FFFFFF;
 
@@ -36,7 +36,7 @@ padding: 0;
 
 }
 
-principal (
+principal {
 
 background-image: url("Background.png");
 
@@ -91,7 +91,7 @@ border: 2px solid var(--branco-principal)
 
 .container_caixa { margin: 0 6em; }
 
-.secundario_imagem ( width: 80%; }
+.secundario_imagem { width: 80%; }
 
 .secundario { align-items: center; margin: 0 10em; }
 
@@ -109,9 +109,9 @@ display: inline-block; margin-top: 1em;
 
 }
 
-.container_descricao ( padding: 2em; }
+.container_descricao { padding: 2em; }
 
-dispositivos lista (
+dispositivos lista {
 
 display: flex;
 
@@ -123,11 +123,13 @@ margin: 5em 0;
 
 }
 
-dispositivos (
+dispositivos {
 
 text-align: center; }
 
-dispositivos_titulo (
+}
+
+dispositivos_titulo {
 
 font-size: 48px;
 
